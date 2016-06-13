@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		773B391F1D0E463A006884C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B391E1D0E463A006884C8 /* AppDelegate.swift */; };
+		773B39261D0E463A006884C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773B39251D0E463A006884C8 /* Assets.xcassets */; };
+		773B39291D0E463A006884C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773B39271D0E463A006884C8 /* LaunchScreen.storyboard */; };
+		773B39341D0E463A006884C8 /* MRPhotoSelectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B39331D0E463A006884C8 /* MRPhotoSelectorTests.swift */; };
+		773B393F1D0E463A006884C8 /* MRPhotoSelectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B393E1D0E463A006884C8 /* MRPhotoSelectorUITests.swift */; };
+		773B39541D0E4814006884C8 /* MRImage+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B39521D0E4814006884C8 /* MRImage+Category.swift */; };
+		773B39551D0E4814006884C8 /* MRPhotoSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B39531D0E4814006884C8 /* MRPhotoSelectorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		773B39301D0E463A006884C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773B39131D0E463A006884C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773B391A1D0E463A006884C8;
+			remoteInfo = MRPhotoSelector;
+		};
+		773B393B1D0E463A006884C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773B39131D0E463A006884C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773B391A1D0E463A006884C8;
+			remoteInfo = MRPhotoSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		773B391B1D0E463A006884C8 /* MRPhotoSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRPhotoSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		773B391E1D0E463A006884C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		773B39251D0E463A006884C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		773B39281D0E463A006884C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		773B392A1D0E463A006884C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773B392F1D0E463A006884C8 /* MRPhotoSelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRPhotoSelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		773B39331D0E463A006884C8 /* MRPhotoSelectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRPhotoSelectorTests.swift; sourceTree = "<group>"; };
+		773B39351D0E463A006884C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773B393A1D0E463A006884C8 /* MRPhotoSelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRPhotoSelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		773B393E1D0E463A006884C8 /* MRPhotoSelectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRPhotoSelectorUITests.swift; sourceTree = "<group>"; };
+		773B39401D0E463A006884C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773B39521D0E4814006884C8 /* MRImage+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MRImage+Category.swift"; sourceTree = "<group>"; };
+		773B39531D0E4814006884C8 /* MRPhotoSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRPhotoSelectorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		773B39181D0E463A006884C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773B392C1D0E463A006884C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773B39371D0E463A006884C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		773B39121D0E463A006884C8 = {
+			isa = PBXGroup;
+			children = (
+				773B391D1D0E463A006884C8 /* MRPhotoSelector */,
+				773B39321D0E463A006884C8 /* MRPhotoSelectorTests */,
+				773B393D1D0E463A006884C8 /* MRPhotoSelectorUITests */,
+				773B391C1D0E463A006884C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		773B391C1D0E463A006884C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				773B391B1D0E463A006884C8 /* MRPhotoSelector.app */,
+				773B392F1D0E463A006884C8 /* MRPhotoSelectorTests.xctest */,
+				773B393A1D0E463A006884C8 /* MRPhotoSelectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		773B391D1D0E463A006884C8 /* MRPhotoSelector */ = {
+			isa = PBXGroup;
+			children = (
+				773B39511D0E4814006884C8 /* MRPhotoSelector */,
+				773B391E1D0E463A006884C8 /* AppDelegate.swift */,
+				773B39251D0E463A006884C8 /* Assets.xcassets */,
+				773B39271D0E463A006884C8 /* LaunchScreen.storyboard */,
+				773B392A1D0E463A006884C8 /* Info.plist */,
+			);
+			path = MRPhotoSelector;
+			sourceTree = "<group>";
+		};
+		773B39321D0E463A006884C8 /* MRPhotoSelectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				773B39331D0E463A006884C8 /* MRPhotoSelectorTests.swift */,
+				773B39351D0E463A006884C8 /* Info.plist */,
+			);
+			path = MRPhotoSelectorTests;
+			sourceTree = "<group>";
+		};
+		773B393D1D0E463A006884C8 /* MRPhotoSelectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				773B393E1D0E463A006884C8 /* MRPhotoSelectorUITests.swift */,
+				773B39401D0E463A006884C8 /* Info.plist */,
+			);
+			path = MRPhotoSelectorUITests;
+			sourceTree = "<group>";
+		};
+		773B39511D0E4814006884C8 /* MRPhotoSelector */ = {
+			isa = PBXGroup;
+			children = (
+				773B39521D0E4814006884C8 /* MRImage+Category.swift */,
+				773B39531D0E4814006884C8 /* MRPhotoSelectorViewController.swift */,
+			);
+			path = MRPhotoSelector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		773B391A1D0E463A006884C8 /* MRPhotoSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773B39431D0E463A006884C8 /* Build configuration list for PBXNativeTarget "MRPhotoSelector" */;
+			buildPhases = (
+				773B39171D0E463A006884C8 /* Sources */,
+				773B39181D0E463A006884C8 /* Frameworks */,
+				773B39191D0E463A006884C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRPhotoSelector;
+			productName = MRPhotoSelector;
+			productReference = 773B391B1D0E463A006884C8 /* MRPhotoSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		773B392E1D0E463A006884C8 /* MRPhotoSelectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773B39461D0E463A006884C8 /* Build configuration list for PBXNativeTarget "MRPhotoSelectorTests" */;
+			buildPhases = (
+				773B392B1D0E463A006884C8 /* Sources */,
+				773B392C1D0E463A006884C8 /* Frameworks */,
+				773B392D1D0E463A006884C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773B39311D0E463A006884C8 /* PBXTargetDependency */,
+			);
+			name = MRPhotoSelectorTests;
+			productName = MRPhotoSelectorTests;
+			productReference = 773B392F1D0E463A006884C8 /* MRPhotoSelectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		773B39391D0E463A006884C8 /* MRPhotoSelectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773B39491D0E463A006884C8 /* Build configuration list for PBXNativeTarget "MRPhotoSelectorUITests" */;
+			buildPhases = (
+				773B39361D0E463A006884C8 /* Sources */,
+				773B39371D0E463A006884C8 /* Frameworks */,
+				773B39381D0E463A006884C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773B393C1D0E463A006884C8 /* PBXTargetDependency */,
+			);
+			name = MRPhotoSelectorUITests;
+			productName = MRPhotoSelectorUITests;
+			productReference = 773B393A1D0E463A006884C8 /* MRPhotoSelectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		773B39131D0E463A006884C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "乐浩";
+				TargetAttributes = {
+					773B391A1D0E463A006884C8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					773B392E1D0E463A006884C8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 773B391A1D0E463A006884C8;
+					};
+					773B39391D0E463A006884C8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 773B391A1D0E463A006884C8;
+					};
+				};
+			};
+			buildConfigurationList = 773B39161D0E463A006884C8 /* Build configuration list for PBXProject "MRPhotoSelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 773B39121D0E463A006884C8;
+			productRefGroup = 773B391C1D0E463A006884C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				773B391A1D0E463A006884C8 /* MRPhotoSelector */,
+				773B392E1D0E463A006884C8 /* MRPhotoSelectorTests */,
+				773B39391D0E463A006884C8 /* MRPhotoSelectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		773B39191D0E463A006884C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773B39291D0E463A006884C8 /* LaunchScreen.storyboard in Resources */,
+				773B39261D0E463A006884C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773B392D1D0E463A006884C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773B39381D0E463A006884C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		773B39171D0E463A006884C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773B39541D0E4814006884C8 /* MRImage+Category.swift in Sources */,
+				773B391F1D0E463A006884C8 /* AppDelegate.swift in Sources */,
+				773B39551D0E4814006884C8 /* MRPhotoSelectorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773B392B1D0E463A006884C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773B39341D0E463A006884C8 /* MRPhotoSelectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773B39361D0E463A006884C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773B393F1D0E463A006884C8 /* MRPhotoSelectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		773B39311D0E463A006884C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773B391A1D0E463A006884C8 /* MRPhotoSelector */;
+			targetProxy = 773B39301D0E463A006884C8 /* PBXContainerItemProxy */;
+		};
+		773B393C1D0E463A006884C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773B391A1D0E463A006884C8 /* MRPhotoSelector */;
+			targetProxy = 773B393B1D0E463A006884C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		773B39271D0E463A006884C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773B39281D0E463A006884C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		773B39411D0E463A006884C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		773B39421D0E463A006884C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		773B39441D0E463A006884C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MRPhotoSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qytb.MRPhotoSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		773B39451D0E463A006884C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MRPhotoSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qytb.MRPhotoSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		773B39471D0E463A006884C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MRPhotoSelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qytb.MRPhotoSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MRPhotoSelector.app/MRPhotoSelector";
+			};
+			name = Debug;
+		};
+		773B39481D0E463A006884C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MRPhotoSelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qytb.MRPhotoSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MRPhotoSelector.app/MRPhotoSelector";
+			};
+			name = Release;
+		};
+		773B394A1D0E463A006884C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MRPhotoSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qytb.MRPhotoSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MRPhotoSelector;
+			};
+			name = Debug;
+		};
+		773B394B1D0E463A006884C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MRPhotoSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qytb.MRPhotoSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MRPhotoSelector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		773B39161D0E463A006884C8 /* Build configuration list for PBXProject "MRPhotoSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773B39411D0E463A006884C8 /* Debug */,
+				773B39421D0E463A006884C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773B39431D0E463A006884C8 /* Build configuration list for PBXNativeTarget "MRPhotoSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773B39441D0E463A006884C8 /* Debug */,
+				773B39451D0E463A006884C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		773B39461D0E463A006884C8 /* Build configuration list for PBXNativeTarget "MRPhotoSelectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773B39471D0E463A006884C8 /* Debug */,
+				773B39481D0E463A006884C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		773B39491D0E463A006884C8 /* Build configuration list for PBXNativeTarget "MRPhotoSelectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773B394A1D0E463A006884C8 /* Debug */,
+				773B394B1D0E463A006884C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 773B39131D0E463A006884C8 /* Project object */;
+}
